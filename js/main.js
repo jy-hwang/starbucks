@@ -84,8 +84,8 @@ fadeEls.forEach(function (fadeEl, index) {
 // new Swiper( 선택자, 옵션 )
 new Swiper('.notice-line .swiper-container', {
   direction: 'vertical',
-  //autoplay: true,
-  //loop: true,
+  autoplay: true,
+  loop: true,
 });
 
 new Swiper('.promotion .swiper-container', {
@@ -93,9 +93,9 @@ new Swiper('.promotion .swiper-container', {
   slidesPerView: 3, // 한번에 보여줄 슬라이드 갯수
   spaceBetween: 10, // 슬라이드 사이 간격
   centeredSlides: true,
-  /* autoplay: {
+  autoplay: {
     delay: 5000,
-  }, */
+  },
   loop: true,
   pagination: {
     el: '.promotion .swiper-pagination', //페이지번호 요소 선택자
